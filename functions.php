@@ -16,7 +16,6 @@ if ( ! defined( '_S_VERSION' ) ) {
 $roots_includes = array(
 	'/inc/functions/defaults.php',
 	'/inc/functions/clean.php',
-	'/inc/functions/plugins.php',
 	'/inc/functions/theme-options.php',
 	'/inc/functions/styles.php',
 	'/inc/functions/shortcodes.php',
