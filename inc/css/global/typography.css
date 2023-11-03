@@ -109,27 +109,3 @@ h6 {
 .user-content a:hover, .elementor-widget-text-editor a:hover, .icon-text-inline:hover {
 	color: var(--link-hover-colour);
 }
-
-.user-content h1, .elementor-widget-text-editor h1 {
-	color: var(--h1-colour);
-}
-
-.user-content h2, .elementor-widget-text-editor h2 {
-	color: var(--h2-colour);
-}
-
-.user-content h3, .elementor-widget-text-editor h3 {
-	color: var(--h3-colour);
-}
-
-.user-content h4, .elementor-widget-text-editor h5 {
-	color: var(--h4-colour);
-}
-
-.user-content h5, .elementor-widget-text-editor h5 {
-	color: var(--h5-colour);
-}
-
-.user-content h6, .elementor-widget-text-editor h6 {
-	color: var(--h6-colour);
-}
