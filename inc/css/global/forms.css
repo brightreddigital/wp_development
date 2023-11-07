@@ -1,6 +1,7 @@
 /* Forms */
 
 input,
+input[type="text"],
 input[type="radio"] + label,
 input[type="checkbox"] + label:before,
 select option,
@@ -22,6 +23,7 @@ select {
 
 @media screen and (min-width: 992px) {
 	input,
+	input[type="text"],
 	input[type="radio"] + label,
 	input[type="checkbox"] + label:before,
 	select option,
@@ -29,6 +31,14 @@ select {
 		padding: 0.8em;
 	}	
 }	
+
+select {
+	appearance: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 15px;
+}
 
 input:focus {
 	outline: 0;
