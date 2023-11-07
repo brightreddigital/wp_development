@@ -7,6 +7,12 @@
 	gap: 15px;
 }
 
+@media screen and (max-width: 992px) {
+	.blog-sf ul {
+		flex-direction: column;
+	}
+}	
+
 .blog-sf ul li {
 	width: 50%;
 	padding: 0;
