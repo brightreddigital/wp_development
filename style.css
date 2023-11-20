@@ -23,10 +23,8 @@ N.B. This stylesheet is for Bright Red Theme only. Individual site content css c
 @import 'inc/css/global/icons.css';
 @import 'inc/css/global/forms.css';
 @import 'inc/css/global/blog.css';
+@import 'inc/css/global/custom_helpers.css';
 
-/* Option Styles */
-
-@import 'inc/css/shop.css';
 
 /* Root colours */
 
