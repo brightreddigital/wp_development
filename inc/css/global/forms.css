@@ -1,9 +1,8 @@
 /* Forms */
 
 input,
-input[type="text"],
-input[type="radio"] + label,
-input[type="checkbox"] + label:before,
+input[type=text],
+input[type=radio] + label,
 select option,
 select {
 	width: 100%;
@@ -23,9 +22,8 @@ select {
 
 @media screen and (min-width: 992px) {
 	input,
-	input[type="text"],
-	input[type="radio"] + label,
-	input[type="checkbox"] + label:before,
+	input[type=text],
+	input[type=radio] + label,
 	select option,
 	select {
 		padding: 0.8em;
@@ -45,7 +43,7 @@ input:focus {
 	border-color: var(--primary-colour);
 }
 
-input[type="radio"] + label {
+input[type=radio] + label {
 	display: inline-block;
 	width: 50%;
 	text-align: center;
@@ -53,17 +51,17 @@ input[type="radio"] + label {
 	border-radius: 0;
 }
 
-input[type="radio"] + label:first-of-type {
+input[type=radio] + label:first-of-type {
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
 
-input[type="radio"] + label:last-of-type {
+input[type=radio] + label:last-of-type {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
 
-input[type="radio"] + label i {
+input[type=radio] + label i {
 	padding-right: 0.4em;
 }
 
@@ -75,7 +73,7 @@ select:active {
 	border-color: var(--primary-colour);
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
 	display: none;
 }
 
