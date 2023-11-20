@@ -97,8 +97,8 @@ label {
 
 .elementor-field-type-acceptance label {
 	padding: 0;
-	font-size: 0.8em;
-	line-height: 1.2em;
+	font-size: 0.9em !important;
+	line-height: 1.2em !important;
 }
 
 .elementor-field-type-acceptance label a {
@@ -109,10 +109,10 @@ label {
 .elementor-field-group-terms_checkbox > div label:before {
 	content: "";
 	display: inline-block;
-	width: 15px;
-	height: 15px;
+	width: 18px;
+	height: 18px;
 	margin-right: 0.5em;
-	vertical-align: -3px;
+	vertical-align: -5px;
 	border: 1px solid var(--body-colour);
 	padding: 0.12em;
 	background-color: transparent;
@@ -127,8 +127,8 @@ label {
 	border-right: 2px solid var(--body-colour);
 	border-top: 2px solid var(--body-colour);
 	content: "";
-	height: 11px;
-	left: 2px;
+	height: 9.5px;
+	left: 3px;
 	position: absolute;
 	top: 11px;
 	transform: scaleX(-1) rotate(135deg);
@@ -148,8 +148,8 @@ label {
 	-webkit-animation: check 0.8s ease 0s running;
 	animation: check 0.8s ease 0s running;
 	display: block;
-	width: 6px;
-	height: 11px;
+	width: 8px;
+	height: 18px;
 	border-color: var(--body-colour);
 }
 @keyframes check {
