@@ -239,6 +239,31 @@ label {
 }
 }
 
+/* White form */
+
+.white-form label, 
+.white-form label *, 
+.white-form input, 
+.white-form .elementor-field-group-terms_checkbox > div label:after, 
+.white-form .elementor-field-group-terms_checkbox > div input:hover + label:before, 
+.white-form .elementor-field-group-terms_checkbox > div input:checked + label:before,
+.white-form .elementor-field-group-terms_checkbox > div input:checked + label:after,
+.white-form .elementor-field-group-std_checkboxes > div input:hover + label:before,
+.white-form .elementor-field-group-std_checkboxes > div input:checked + label:before,
+.white-form .elementor-field-group-std_checkboxes > div input:checked + label:after,
+.white-form .elementor-field-group-std_checkboxes > div label:before,
+.white-form textarea,
+.white-form button
+
+{
+	color: #fff !important;
+	border-color: #fff !important;
+}
+
+.white-form select {
+	filter: invert(1);
+}
+
 
 
 
