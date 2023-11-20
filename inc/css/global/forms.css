@@ -127,10 +127,10 @@ label {
 	border-right: 2px solid var(--body-colour);
 	border-top: 2px solid var(--body-colour);
 	content: "";
-	height: 9.5px;
-	left: 3px;
+	height: 13px;
+	left: 2px;
 	position: absolute;
-	top: 11px;
+	top: 10px;
 	transform: scaleX(-1) rotate(135deg);
 	transform-origin: left top;
 	width: 6px;
@@ -148,8 +148,8 @@ label {
 	-webkit-animation: check 0.8s ease 0s running;
 	animation: check 0.8s ease 0s running;
 	display: block;
-	width: 8px;
-	height: 18px;
+	width: 6px;
+	height: 13px;
 	border-color: var(--body-colour);
 }
 @keyframes check {
