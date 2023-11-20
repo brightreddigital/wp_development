@@ -167,7 +167,77 @@ label {
 }
 }
 
+/* Checkbox styling */
 
+.elementor-field-group-std_checkboxes > div label:before {
+	content: "";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-right: 0.5em;
+	vertical-align: -5px;
+	border: 1px solid var(--body-colour);
+	padding: 0.12em;
+	background-color: transparent;
+	background-clip: content-box;
+	transition: all 0.2s ease;
+}
+
+.elementor-field-group-std_checkboxes .elementor-field-option {
+	margin-top: 15px;
+}
+
+.elementor-field-group-std_checkboxes .elementor-field-option:first-of-type {
+	margin-top: 0px;
+}
+
+.elementor-field-group-std_checkboxes > div label {
+	margin-right: 1em;
+	position: relative;
+}
+.elementor-field-group-std_checkboxes > div label:after {
+	border-right: 3px solid var(--body-colour);
+	border-top: 3px solid var(--body-colour);
+	content: "";
+	height: 20px;
+	left: 2px;
+	position: absolute;
+	top: 11.5px;
+	transform: scaleX(-1) rotate(135deg);
+	transform-origin: left top;
+	width: 9px;
+	display: none;
+}
+.elementor-field-group-std_checkboxes > div input:hover + label:before {
+	border-color: var(--body-colour);
+}
+.elementor-field-group-std_checkboxes > div input:checked + label:before {
+	border-color: var(--body-colour);
+	background: transparent;
+}
+.elementor-field-group-std_checkboxes > div input:checked + label:after {
+	-moz-animation: checked 0.3s ease 0s running;
+	-webkit-animation: checked 0.3s ease 0s running;
+	animation: check 0.3s ease 0s running;
+	display: block;
+	width: 9px;
+	height: 20px;
+	border-color: var(--body-colour);
+}
+@keyframes checked {
+ 0% {
+ height: 0;
+ width: 0;
+}
+ 25% {
+ height: 0;
+ width: 9px;
+}
+ 50% {
+ height: 20px;
+ width: 9px;
+}
+}
 
 
 
